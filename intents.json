@@ -1,0 +1,88 @@
+{"intents":[
+    { "tag": "saudacao",
+      "patterns":["Ola","Opa","Oi", "tudo bem"],
+      "responses": ["Oi","Olá"]
+    },
+    { "tag": "despedida",
+      "patterns":["valeu","tchau","Obrigado","tks"],
+      "responses": ["Até breve","Falou"]
+    },
+    { "tag": "perguntasPipe",
+      "patterns":["Como eu submeto meu projeto no PIPE?","Como mandar meu projeto no pipe", "preciso enviar meu projeto no pipe"],
+      "responses": ["1. Primeiro, entre no link: https://fapesp.br/pipe/\n2. Abaixo da aba 'Fluxo Contínuo' localizada na direita da tela clique no link 'A submissão de propostas ao PIPE pode ser feita a qualquer momento do ano pelo SAGe'\n3. Insira sua identificação e senha e entre no SAGe\n4. Clique em 'Nova Proposta Inicial'\n5. Escolha o tipo de projeto que deseja submeter\n6. Preencha os campos requeridos\n7. Pronto! Agora você pode enviar seu projeto no PIPE"]
+    },
+    { "tag": "duvidas",
+      "patterns":["onde posso mandar meu tcc"],
+      "responses": ["Você pode enviar seu projeto de TCC através do PIPE"]
+    },
+    { "tag": "duvidasSAGe",
+      "patterns":["Não possuo cadastro no SAGe", "Como eu crio um cadastro no SAGe?"],
+      "responses": ["Você pode se cadastrar clicando no campo 'Não possuo cadastro?' Localizado abaixo dos campos de identificação e senha"]
+    },
+    { "tag": "duvidasPIPE",
+      "patterns":["O que é PIPE?", "Não sei o que é PIPE", "Me explique o que é PIPE","O que é o programa pipe?"],
+      "responses": ["O Programa FAPESP Pesquisa Inovativa em Pequenas Empresas - PIPE foi criado em 1997 pela Fundação de Amparo à Pesquisa do Estado de São Paulo para apoiar a execução de pesquisa científica e/ou tecnológica em pequenas empresas do Estado de São Paulo."]
+    },
+    { "tag": "fasesProjeto",
+      "patterns":["Em qual fase devo sumeter meu projeto?","O que é cada fase o pipe?","Existem diferente fases no programa?","fases do pipe"],
+      "responses": ["As fases são as seguintes: \na) Fase 1: Verificação da viabilidade técnico-científica da proposta (duração de até 9 meses e orçamento de até R$ 300.000, além de Reserva Técnica e Benefícios Complementares).\nb) Fase 2: Execução da pesquisa (duração de até 24 meses e orçamento de até R$ 1.500.000, além de Reserva Técnica e Benefícios Complementares).\nc) PIPE Invest: Aceleração da entrada no mercado de Projetos da Fase 2, com interesse de terceiros (duração de até 24 meses e orçamento de até R$ 1.500.000).\n d) Fase 3: Desenvolvimento comercial e industrial de produtos, processos, sistemas e/ou serviços inovadores obtidos de pesquisas anteriores pela pequena empresa sem apoio da FAPESP ou com apoio do PIPE."]
+    },
+    { "tag": "faseInicial",
+      "patterns":["A Fase 1 é obrigatória?","Posso ir direto para a Fase 2?","é necessário começar pela fase 1?"],
+      "responses": ["Desde que a viabilidade técnica da pesquisa seja comprovada, é possível submeter o projeto na Fase 2 Direta. Para a comprovação, é necessário o envio do documento 'Justificativa para a Fase 2 Direta' "]
+    },
+    { "tag": "dataDaSubmição",
+      "patterns":["Quando posso enviar meu projeto no PIPE?", "Quando posso submeter meu projeto no PIPE?", "Datas de submissão do projeto pipe"],
+      "responses": ["Você pode enviar as propostas para Fase 1, Fase 2 e PIPE Investe durante o ano todo!"]
+    },
+    { "tag": "empresa",
+      "patterns":["O projeto deve ser feito na empresa?", "O projeto de pesquisa deve ser feito na empresa?"],
+      "responses": ["Sim! Considerando que o PIPE destina-se a apoiar a execução de pesquisa EM pequenas empresas sediadas no Estado de São Paulo."]
+    },
+    { "tag": "empresaNConstituida",
+      "patterns":["A empresa ja precisa existir para submeter um projeto?", "Preciso ter uma empresa para submeter um projeto PIPE?"],
+      "responses": ["A FAPESP também analisa propostas de empresas ainda não formalmente constituídas. Startups em processo de formação podem submeter suas propostas. Se a proposta for recomendada, é necessário proceder com a formalização da empresa antes da concessão."]
+    },
+    { "tag": "areasPrioritarias",
+      "patterns":["Tem áreas prioritarias para a submissão do PIPE?", "Areas prioritarias no pipe", "Tem áreas com prioridade no envio do PIPE?"],
+      "responses": ["Não, o PIPE tem como objetivo apoiar pesquisas promissoras e inovadoras em diversas áreas do conhecimento."]
+    },
+    { "tag": "projetoPronto",
+    "patterns":["É possível receber um financiamento para um produto pronto?", "é aceito o financiamento de um projeto já desenvolvido?", "Se já tenho um projeto pronto e desenvolvido, é possivel receber um financiamento por ele?"],
+    "responses": ["Não, o objetivo principal do PIPE é oferecer suporte a projetos de pesquisa que visam à inovação, fornecendo recursos para financiar a pesquisa voltada para o desenvolvimento de produtos, processos ou serviços inovadores. Se o produto já foi desenvolvido, as Fases 1 e 2 do PIPE podem não ser necessárias para financiar a pesquisa necessária para alcançá-lo. Nesse caso, a proposta pode ser considerada elegível para outros programas de subvenção econômica, como o PIPE Fase 3, que é financiado em parceria com terceiros."]
+    },
+    { "tag": "formaçao",
+    "patterns":["Posso submeter um projeto em uma área em que não tenho formação?", "é preciso ter formação na área do meu projeto?"],
+    "responses": ["No PIPE, é crucial demonstrar experiência na área do projeto. A equipe deve incluir profissionais de todas as áreas relevantes para a pesquisa. Não é necessário que todos os membros da equipe tenham uma ligação direta com a empresa; você pode adicionar especialistas de universidades ou consultores, pagos ou não, para complementar as habilidades necessárias para a pesquisa. Por exemplo, se o projeto envolve desenvolvimento de software para saúde, é importante ter especialistas em software e saúde na equipe. Da mesma forma, se o projeto envolve eletrônica na agricultura, é essencial incluir especialistas em eletrônica e agricultura."]
+    },
+    { "tag": "dedicacaoExclusiva",
+    "patterns":["É necessário se dedicar exclusivamente ao projeto?", "á preciso se dediacar apenas ao projeto?", "posso ter outras ocupação enquanto trabalho no projeto?"],
+    "responses": ["Se o pesquisador principal recebe remuneração da empresa e não possui uma bolsa da FAPESP, é necessário que ele dedique no mínimo 24 horas por semana ao projeto na empresa. Em situações excepcionais, quando a empresa demonstra incapacidade de arcar com o salário do Pesquisador Responsável, a FAPESP pode considerar solicitações para a Bolsa de Pesquisa em Pequena Empresa (Bolsa PE FAPESP). Se o pesquisador principal optar por essa bolsa, ele precisará dedicar pelo menos 40 horas por semana ao projeto."]
+    },
+    { "tag": "empresasForaDeSP",
+    "patterns":["Pesquisadores e/ou empresas fora do estado de são paulo podem apresentar projetos?", "é preciso residir em são paulo para submeter um projeto?"],
+    "responses": ["Para participar do PIPE, o pesquisador principal precisa morar em São Paulo. Se a empresa já existir fora do estado, o pesquisador deve submeter o projeto em nome dela. É necessário que a empresa tenha uma unidade de pesquisa em São Paulo, como indicado na norma. Além disso, pesquisadores de outros estados que abrirem novas empresas em São Paulo e se mudarem para o estado também podem participar."]
+    },
+    { "tag": "pesquisaUniversidade",
+    "patterns":["É necessário ter um projeto de pesquisa em uma universidade para receber apoio do PIPE da FAPESP?", "Minha pesquisa deve estar em uma universidade?"],
+    "responses": ["Não é necessário ter qualquer ligação com instituições acadêmicas para participar do PIPE. Embora parcerias entre empresas e universidades sejam benéficas, o programa PIPE visa apoiar a pesquisa dentro da empresa, não na universidade."]
+    },
+    { "tag": "pesquisaUniversidade2",
+    "patterns":["Posso realizar a minha pesquisa dentro da universidade?", "Posso fazer a pesquisa na universidade?"],
+    "responses": ["Não, as atividades devem ser desenvolvidas na empresa, a não ser atividades específicas da"]
+    },
+    { "tag": "quantBolsas",
+    "patterns":["Quantas bolsas posso solicitar?", "Quantas bolsas de pesquisa em pequena empresa (Bolsa PE FAPESP) posso solicitar?"],
+    "responses": ["Normalmente, a cada projeto de empresas com pouco faturamento cabe uma única bolsa PE. Em condições excepcionais e muito bem justificadas, uma segunda bolsa PE pode ser solicitada. Nesse caso, dois planos de atividades precisam ser apresentados indicando claramente as atividades de cada bolsista PE no projeto. No caso de empresas com grande faturamento, espera-se que a própria empresa pague o pesquisador principal."]
+    },
+    { "tag": "tipoBolsas",
+    "patterns":["O que é a bolsa TT-1?","O que é a bolsa TT-2?","O que é a bolsa TT-3?", "O que são as bolsas TT-1, TT-2 e TT-3?"],
+    "responses": ["As bolsas TT-1, TT-2 e TT-3 são bolsas de Treinamento Técnico que têm por objetivo treinar e aperfeiçoar alunos de cursos técnicos, de nível médio e superior e de recém-formados, visando à sua futura incorporação à equipe de P&D da empresa. Para cada bolsa solicitada é fundamental a apresentação de um plano de trabalho individual."]
+    },
+    { "tag": "tipoBolsas2",
+    "patterns":["O que é a bolsa TT-4?","O que é a bolsa TT-4A?","O que é a bolsa TT-5?", "O que são as bolsas TT-4, TT-4A e TT-5?"],
+    "responses": ["As bolsas TT-4, TT-4A e TT-5 são bolsas de Treinamento Técnico destinadas a profissionais com formação altamente especializada, para desenvolver atividades técnicas complexas junto ao projeto de pesquisa. Para cada bolsa solicitada é fundamental a apresentação de um plano de trabalho individual de 2 páginas, detalhando tecnicamente as tarefas. O tempo de experiência do candidato é contado após a conclusão da graduação."]
+    }
+    
+  ]
+  }
